@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(17, 15, 15);
+}
+footer{
+    background-color: black;
+    overflow: auto;
+    border: 2px solid purple;
+    border-radius: 15px;
+}
+
+.navbar {
+    background-color: black;
+    overflow: auto;
+    border-radius: 30px;
+    border: 2px solid purple;
+}
+
+.navbar li {
+    float: left;
+    list-style: none;
+    margin: 10px;
+}
+
+.navbar li a {
+    color: rgb(212, 211, 211);
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px;
+    font-weight: 500;
+    font-size: 17px;
+    font-family: Bluu Next, serif;
+}
+
+.navbar li a:hover {
+    color: rgb(156, 77, 156);
+}
+
+.img {
+    float: right;
+    padding-right: 90px;
+}
+
+.intro {
+    color: whitesmoke;
+    font-family: Bluu Next, serif;
+    /* border: 2px solid gray; */
+    text-align: center;
+    padding: 15px;
+}
+
+#title {
+    line-height: 0em;
+}
+
+.movies {
+    color: whitesmoke;
+    /* border: 2px solid gray; */
+    width: 25%;
+    text-align: center;
+    float: left;
+}
+
+.btn {
+    background-color: rgb(139, 33, 139);
+    color: white;
+    padding: 5px 12px;
+    text-decoration: none;
+    border-radius: 8px;
+    margin: 0px 20px;
+    font-family: Bluu Next, serif;
+    font-weight: 700;
+    font-size: 19px;
+}
+
+.btn:hover {
+    background-color: rgb(58, 3, 58);
+}
+.place{
+    /* border: 2px solid gray; */
+    margin: 5px auto; 
+    height: 411px;
+}
+.place2{
+    /* border: 2px solid gray; */
+    margin: 35px auto;
+    height: 445px;
+}
+.post{
+    color: whitesmoke;
+    /* border: 2px solid gray; */
+    width: 33.333%;
+    text-align: center;
+    font-family: Bluu Next, serif;
+    float: left;
+    height: 240px;
+}
+.last{
+    text-decoration: none;
+    color: white;
+    font-family: Bluu Next, serif;
+    font-size: 18px;
+    line-height: 3em;
+}
+.last:hover{
+    color: rgb(204, 191, 204);
+    text-decoration: underline;
+}
+.movies{
+    transition: transform .3s;
+}
+.movies:hover{
+    transform: scale(1.06);
+}
+#lastlogo{
+    width: 300px;
+    padding-top: 50px;
+}
+.intrologo{
+    padding-top: 10px;
+    overflow: auto;
+    width: fit-content;
+}
+.int{
+    width: 100%;
+}
